@@ -5,46 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>kritsanai</title>
   <style>
-    .marquee-text {
+    /* .marquee-text {
       color: red;
       font-size: 32px;
       font-weight: bold;
-    }
-
-    table {
-      width: 500px;
-      border-collapse: collapse;
-    }
-
-    th, td {
-      padding: 8px;
-      border: 1px solid black;
-      text-align: left;
-    }
-
-    .left-column {
-      background-color: red;
-      color: white;
-      width: 150px;
-    }
-
-    .right-column {
-      background-color: white;
-      color: black;
-      width: 350px;
-    }
-
-    .red-text {
-      color: red;
-      font-size: 24px;
-      font-weight: bold;
-    }
-
+    } */
   </style>
 </head>
 <body bgcolor="#43ff57">
 
-  <marquee class="marquee-text">MY HOMEPAGE</marquee>
+  <!-- <marquee class="marquee-text">MY HOMEPAGE</marquee> -->
+    <marquee>
+      <font size="8" color="red">MY HOMEPAGE</font>
+    </marquee>
+
+  <!--รูปภาพ-->
   <img width="100" height="150" src="img/IMG_20240717_112259.jpg" alt="kritsanai"><br>
 
   <!-- ข้อมูลตัวอย่าง -->
@@ -55,20 +30,20 @@
   <hr>
 
   <!-- ตารางข้อมูล -->
-  <table>
-    <tr>
-      <th class="left-column">อาชีพ</th>
-      <td class="right-column">นักศึกษา</td>
-    </tr>
-    <tr>
-      <th class="left-column">งานอดิเรก</th>
-      <td class="right-column">ฟังเพลง</td>
-    </tr>
-    <tr>
-      <th class="left-column">ผลงานที่ทำมามาก</th>
-      <td class="right-column">ตัดต่อวิดีโอลงบนโลกออนไลน์</td>
-    </tr>
-  </table>
+  <table style="width:500px; background-color:red;">
+  <tr>
+    <td style="width:150px; background-color:red;">อาชีพ</td>
+    <td style="width:350px; background-color:white;">นักศึกษา</td>
+  </tr>
+  <tr>
+    <td style="background-color:red;">งานอดิเรก</td>
+    <td style="background-color:white;">ตัดต่อวิดีโอ</td>
+  </tr>
+  <tr>
+    <td style="background-color:red;">ผลงานที่ผ่านมา</td>
+    <td style="background-color:white;">ตัดต่อวิดีโอเผยแพร่บนโลกออนไลน์</td>
+  </tr>
+</table>
 
     <h2>สถานที่ทำงาน</h2>
     <h3>หลักสูตร วิศวคอมพิวเตอร์อุตสาหกรรม</h3>
@@ -118,10 +93,10 @@
       <B><li>ONE</li></B>
       <i><li>TWO</li></i>
       <u><li>THREE</li></u>
-      <li><span class="red-text">FOUR</span></li>
+      <li><span style="color: red; font: size 5px; ">FOUR</span></li>
     </ol><hr>
     
     <span>ข้อมูลเพิ่มเติม</span>
-    <a href="https://www.facebook.com/kritsanai.angthong">facebook</a>
+    <a href="https://www.facebook.com/kritsanai.angthong" target="_blank">facebook</a>
 </body>
 </html>
